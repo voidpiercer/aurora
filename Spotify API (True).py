@@ -7,8 +7,8 @@ import base64
 
 def get_token():
 
-    client_id="81f1d3df454c41498f6b5b8c0410dd6e"
-    client_secret="233a1ce964a7498c8051b712278ce261"
+    client_id=""
+    client_secret=""
 
     auth_string = client_id + ":" + client_secret
     auth_bytes = auth_string.encode("utf-8")
